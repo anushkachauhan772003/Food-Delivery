@@ -24,7 +24,7 @@ document.getElementById('login-btn').addEventListener('click', function() {
     location.href = '/login page/HtmlCode.html';
 }, false);
 
- 
+
 var swiper = new Swiper(".review-slider", {
     loop:true,
     spaceBetween: 30,
@@ -37,3 +37,7 @@ var swiper = new Swiper(".review-slider", {
         el: ".swiper-pagination",
     },
 });
+document.getElementById('book-now').addEventListener('click', function() {
+    location.href ='/login page/HtmlCode.html';
+}, false);
+

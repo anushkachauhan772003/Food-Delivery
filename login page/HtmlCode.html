@@ -13,6 +13,7 @@
 
     <div class="container" data-aos="zoom-in-down">
         <div class="form-box">
+           
             <div class="button-box">
                 <div id="btn"></div>
                 <button type="button" class="toggle-btn" onclick="login()">Log In</button>
@@ -24,16 +25,15 @@
                 <img src="project png/tw.png">
             </div>
             <form id="login" class="input-form">
-                <input type="text" class="input-field" placeholder="user id" required>
-                <input type="password" class="input-field" placeholder="password required" required>
-                <input type="checkbox" class="check-box"><span class="log">Remember Password</span>
+                <input type="text" class="input-field" id="user-id"placeholder="user id" required>
+                <input type="password" class="input-field" id="password"placeholder="password required" required>
+                <input type="checkbox" class="check-box" ><span class="log">Remember Password</span>
                 <button type="submit" class="submit-btn">Log in</button>
             </form>
             <form id="register" class="input-form">
-                <input type="text" class="input-field" placeholder="user name" required>
-                <input type="email" class="input-field" placeholder="Email id" required>
-                <input type="password" class="input-field" placeholder="password required" required>
-                <input type="checkbox" class="check-box" required><span class="log">I agree to the terms & conditions</span>
+                <input type="text" class="input-field" id="user-id"placeholder="user name" required>
+                <input type="email" class="input-field" id="email-id"placeholder="Email id" required>
+                <input type="password" class="input-field" id="password" placeholder="password required" required>
                 <button type="submit" class="submit-btn">Register</button>
             </form>
 
@@ -43,6 +43,7 @@
 
     </div>
     <script>
+       
         var x = document.getElementById("login");
         var y = document.getElementById("register");
         var z = document.getElementById("btn");
@@ -65,6 +66,7 @@
         }
 
     </script>
+  
 
 </body>
 
