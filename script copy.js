@@ -5,7 +5,8 @@ document.querySelector('#menu-btn').onclick = () =>{
     loginForm.classList.remove('active');
     searchForm.classList.remove('active');
 }
- 
+
+
 
 let searchForm = document.querySelector('.search-form')
 
@@ -20,11 +21,7 @@ window.onscroll = () =>{
     loginForm.classList.remove('active');
     searchForm.classList.remove('active');
 }
-document.getElementById('login-btn').addEventListener('click', function() {
-    location.href = '/login page/HtmlCode.html';
-}, false);
-
-
+ 
 var swiper = new Swiper(".review-slider", {
     loop:true,
     spaceBetween: 30,
@@ -37,7 +34,29 @@ var swiper = new Swiper(".review-slider", {
         el: ".swiper-pagination",
     },
 });
-document.getElementById('book-now').addEventListener('click', function() {
-    location.href ='/login page/HtmlCode.html';
+
+
+document.getElementById('bookNow').addEventListener('click', function() {
+    location.href = 'registrationForm.html';
 }, false);
+
+
+document.getElementById('login-btn').addEventListener('click', function() {
+    location.href = '/login page/HtmlCode.html';
+}, false);
+
+document.getElementById('read-more').addEventListener('click', function() {
+    location.href = 'readmore.html';
+}, false);
+
+document.getElementById('top-rated').addEventListener('click', function() {
+    location.href = 'readmore.html';
+}, false);
+
+document.getElementById('combo-offers').addEventListener('click', function() {
+    location.href = 'readmore.html';
+}, false);
+
+
+
 
