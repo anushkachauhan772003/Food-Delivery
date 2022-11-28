@@ -1,4 +1,6 @@
-let navbar = document.querySelector('.navbar')
+let navbar = document.querySelector('.navbar');
+let loginForm=document.querySelector('.form-container');
+let searchForm = document.querySelector('.search-form');
 
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.toggle('active');
@@ -8,7 +10,7 @@ document.querySelector('#menu-btn').onclick = () =>{
 
 
 
-let searchForm = document.querySelector('.search-form')
+
 
 document.querySelector('#search-btn').onclick = () =>{
     searchForm.classList.toggle('active');
@@ -24,10 +26,10 @@ window.onscroll = () =>{
  
 var swiper = new Swiper(".review-slider", {
     loop:true,
-    spaceBetween: 30,
+    spaceBetween:60,
     centeredSlides: true,
     autoplay: {
-        delay: 5500,
+        delay: 4000,
         disableOnInteraction: false,
     },
     pagination: {
