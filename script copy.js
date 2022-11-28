@@ -51,13 +51,14 @@ document.getElementById('read-more').addEventListener('click', function() {
     location.href = 'readmore.html';
 }, false);
 
-document.getElementById('top-rated').addEventListener('click', function() {
-    location.href = 'readmore.html';
+document.getElementById("toprated").addEventListener('click', function() {
+    location.href = 'toprated.html';
 }, false);
 
 document.getElementById('combo-offers').addEventListener('click', function() {
-    location.href = 'readmore.html';
+    location.href = 'combo.html';
 }, false);
+
 
 
 
