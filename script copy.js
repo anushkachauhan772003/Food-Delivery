@@ -60,6 +60,12 @@ document.getElementById('combo-offers').addEventListener('click', function() {
 }, false);
 
 
+document.getElementById('sumbmit-log-in').addEventListener('click', function() {
+    location.href = 'index.html';
+}, false);
+
+
+
 
 
 

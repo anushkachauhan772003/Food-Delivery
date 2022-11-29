@@ -28,13 +28,13 @@
                 <input type="text" class="input-field" id="user-id"placeholder="user id" required>
                 <input type="password" class="input-field" id="password"placeholder="password required" required>
                 <input type="checkbox" class="check-box" ><span class="log">Remember Password</span>
-                <button type="submit" class="submit-btn">Log in</button>
+                <button type="submit" class="submit-btn" id="sumbmit-log-in" onclick="my()">Log in</button>
             </form>
             <form id="register" class="input-form">
                 <input type="text" class="input-field" id="user-idr"placeholder="user name" required>
                 <input type="email" class="input-field" id="email-idr"placeholder="Email id" required>
                 <input type="password" class="input-field" id="passwordr" placeholder="password required" required>
-                <button type="submit" class="submit-btn">Register</button>
+                <button type="submit" class="submit-btn" onclick="my()">Register</button>
             </form>
 
         </div>
@@ -63,6 +63,9 @@
             y.style.left = "450px";
             z.style.left = "0px";
 
+        }
+        function my(){
+            window.location.href='/index.html';
         }
 
     </script>
